@@ -1,8 +1,7 @@
 import { Component, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
-// import * as d3 from 'd3';
-// import * as nv from 'nvd3';
-declare var d3: any;
-declare var nv: any;
+
+declare const d3: any;
+declare const nv: any;
 
 @Component({
   selector: 'app-root',
